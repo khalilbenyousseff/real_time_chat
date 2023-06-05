@@ -1,25 +1,38 @@
-# real_time_chat
+Real-Time Chat Application
+This is a real-time chat application built with Node.js and MongoDB. It allows users to have real-time conversations and exchange messages instantly.
+
 Requirements
-Nodejs
-Mongodb
+Node.js
+MongoDB
+Installation
+Clone the repository:
 
-Now install the dependencies
+
+Install the dependencies for the server:
+
+
 
 cd server
-yarn
-cd ..
-cd public
-yarn
-We are almost done, Now just start the development server.
+yarn install
+Install the dependencies for the client:
 
-For Frontend.
+
+cd ../public
+yarn install
+Usage
+Start the development server for the frontend:
+
 
 cd public
 yarn start
-For Backend.
+This will start the frontend application on http://localhost:3000.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
+Start the backend server in another terminal:
+
 
 cd server
 yarn start
-Done! Now open localhost:3000 in your browser.
+Make sure MongoDB is running in the background.
+
+Open http://localhost:3000 in your browser.
+
